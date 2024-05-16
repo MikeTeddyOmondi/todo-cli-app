@@ -1,7 +1,23 @@
 [package]
-name = "bin"
-version = "0.1.0"
+name = "todo-cli-app"
+version = "0.2.0"
 edition = "2021"
+include = [
+	"src/**/*",
+	"Cargo.toml",
+	"README.md",
+	"LICENCE"
+]
+homepage = "https://github.com/MikeTeddyOmondi/todo-cli-app"
+description = "Simple command line utility application for managing your tasks"
+repository = "https://github.com/MikeTeddyOmondi/todo-cli-app"
+keywords = [
+	"cli",
+	"task_application",
+	"todo_application"
+]
+categories = ["command-line-interface"]
+license = "MIT License"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
